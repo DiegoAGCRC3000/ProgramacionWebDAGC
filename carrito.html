@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+
+    <link rel="stylesheet" type="text/css" href="css/carrito.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./img/GymWiseLogo.png" alt="Logo GymWise">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Perfil.html" class="nav-link" href="#">Perfil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="rutinas.html" class="nav-link" href="#">Rutinas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Nutricion.html" class="nav-link" href="#">Nutricion</a>
+                </li>
+                <li class="nav-item">
+                    <a href="tiendaBase.html" class="nav-link" href="#">Tienda</a>
+                </li>
+                <li class="nav-item">
+                    <a href="carrito.html" class="nav-link" href="#">Carrito</a>
+                </li>
+                   
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Entrenamiento Personalizado</a></li>
+                            <li><a class="dropdown-item" href="#">Nutrición</a></li>
+                            <li><a class="dropdown-item" href="#">Clases Grupales</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="admin.html" class="nav-link" href="#">Administrador</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a href="Usuario.html" class="btn btn-outline-primary me-2">Iniciar Sesión</a>
+                    <a href="Usuario.html" class="btn btn-primary">Regístrate</a>
+                
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+
+<div class="cart-container">
+    <div class="product">
+        <img src="imgs/CreatProteCo.png" alt="Producto 1">
+        <div class="product-info">
+            <h2>Creatina Prote&Co</h2>
+            <p>Descripción breve del Producto 1.</p>
+            <p class="product-price">$699.00</p>
+            
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="imgs/PreEntDragon.png" alt="Producto 2">
+        <div class="product-info">
+            <h2>Pre entreno DragonPharma edición Día de Muertos</h2>
+            <p>Descripción breve del Producto 2.</p>
+            <p class="product-price">$570.00</p>
+          
+        </div>
+    </div>
+
+    <div class="product">
+        <img src="imgs/ProtWheyBolsa.png" alt="Producto 3">
+        <div class="product-info">
+            <h2>Proteína Whey Mutant en Bolsa</h2>
+            <p>Descripción breve del Producto 3.</p>
+            <p class="product-price">$890.00</p>
+            
+        </div>
+    </div>
+
+    <div class="subtotal-container">
+        <h3>Subtotal: $2659.00</h3>
+        <h3>Total: $2659.00</h3>
+    </div>
+</div>
+
+<!-- Incluye los scripts de Bootstrap al final del body -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

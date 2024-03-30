@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family:'Montserrat', sans-serif;
+}
+
+body{
+    display: block;
+    width: auto;
+    justify-content: center;
+    height: auto;
+    background-size: cover;
+    border: solid thin red;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    border: solid thin green;
+    justify-content: center;
+    align-items: center;
+}
+
+.principiantes{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+}
+h3{
+    text-shadow: 0 1px 2px rgb(49, 42, 42), 0 0 1rem rgb(39, 39, 48),0 0 0.2rem rgb(52, 52, 60) ;
+    letter-spacing: 4px;
+    font-size: 25px;
+}
+
+
+.container-infoPrin{
+    display: flex;  
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0,0, 0, 0.1);
+
+}
+
+.container-infoPrin div{
+    padding: 5px 5px;
+    border-radius: 20px ;
+    margin: 35px 25px;
+    width: 14%;
+    background-color: rgba(164, 225, 182, 0.919);
+    color: #0e0505;
+
+}
+
+.container-infoInter{
+    display: flex;  
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0,0, 0, 0.1);
+}
+
+.container-infoInter div{
+    padding: 5px 5px;
+    border-radius: 20px ;
+    margin: 35px 25px;
+    width: 14%;
+    background-color: rgba(164, 225, 182, 0.919);
+    color: #0e0505;
+
+}
+
+.container-infoAvan{
+    display: flex;  
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgba(0,0, 0, 0.1);
+}
+
+.container-infoAvan div{
+    padding: 5px 5px;
+    border-radius: 20px ;
+    margin: 35px 25px;
+    width: 14%;
+    background-color: rgba(164, 225, 182, 0.919);
+    color: #0e0505;
+}
+
+
+.intermedios{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.avanzados{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+
+.imagen{
+    padding: 15px 15px;
+    margin: 25px 25px;
+}
+
+.imagen-child{
+    margin: 15px 20px;
+    justify-content: center;
+    align-items: center; 
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
